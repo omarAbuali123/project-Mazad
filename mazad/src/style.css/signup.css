@@ -1,0 +1,107 @@
+/* قاعدة أساسية لجعل كل شيء يبدو جميلًا */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* تنسيق صفحة التسجيل */
+.signup-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #8EABBF, #0056b3);
+}
+
+/* حاوية التسجيل */
+.signup-container {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 800px;
+    width: 100%;
+    margin: 20px;
+}
+
+/* تنسيق الصورة */
+/* .image-container {
+    flex: 1;
+    background: url('https://cdn.discordapp.com/attachments/1263051013607129230/1263069598211772478/Rectangle_5.png?ex=66a613ba&is=66a4c23a&hm=b14e4f00bba3ee641ce7e18f87dd308cdcf7c40698a80bca228e93c42add6807&') no-repeat center center;
+    background-size: cover;
+} */
+
+/* تنسيق نموذج التسجيل */
+.signup-form {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* العنوان */
+.signup-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* تنسيق النموذج */
+.signup-form .form-group {
+    margin-bottom: 20px;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.signup-form input:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+/* تنسيق زر "إنشاء الحساب" */
+.signup-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #8EABBF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signup-button:hover {
+    background-color: #003d7a;
+}
+
+/* رابط "تسجيل الدخول" */
+.login-link {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #0056b3;
+    text-decoration: none;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}
+
+/* تنسيق زر "إظهار/إخفاء كلمة المرور" */
+.toggle-password {
+    background: none;
+    border: none;
+    color: #0056b3;
+    cursor: pointer;
+}
